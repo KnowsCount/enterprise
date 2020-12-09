@@ -3,7 +3,7 @@
  * @Date: 2020-12-08 16:28:00
  * @Author: KnowsCount
  * @Github: https://github.com/KnowsCount/NKCS-Storage
- * @LastEditTime: 2020-12-09 17:22:49
+ * @LastEditTime: 2020-12-09 18:36:36
  * @FilePath: /vueEnterprise/src/router/index.js
  */
 import Vue from "vue";
@@ -12,6 +12,7 @@ import HelloWorld from "@/components/HelloWorld";
 import home from "@/components/home";
 import about from "@/pages/about";
 import admin from "@/pages/admin";
+import contact from "@/pages/contact";
 import MuseUI from "muse-ui";
 import "muse-ui/dist/muse-ui.css";
 
@@ -34,6 +35,11 @@ export default new Router({
             path: "/admin",
             name: "admin",
             component: admin
+        },
+        {
+            path: "/contact",
+            name: "contact",
+            component: contact
         }
     ]
 });
